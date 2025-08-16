@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-container {
+    padding: 20px;
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-container {
+    text-align: center;
+    width: 90%;
+}
+
+.main-heading {
+    color: #183b56;
+}
+
+.main-description {
+    color: #5a7184;
+}
+
+.item-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.item-card {
+    width: 40%;
+    margin-right: 10px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.small-heading {
+    font-size: 28px;
+}
+
+.small-description {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+}
